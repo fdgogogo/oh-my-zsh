@@ -149,9 +149,14 @@ alias ggpush='git push origin $(git_current_branch)'
 compdef _git ggpush=git-checkout
 
 alias ggsup='git branch --set-upstream-to=origin/$(git_current_branch)'
+<<<<<<< HEAD
 alias gpsup='git push --set-upstream origin $(git_current_branch)'
 
 alias gh='git help'
+=======
+
+alias gpsup='git push --set-upstream origin $(git_current_branch)'
+>>>>>>> 63751a8c8e77281f61c5bcac4bcf66f6f11dd98f
 
 alias gignore='git update-index --assume-unchanged'
 alias gignored='git ls-files -v | grep "^[[:lower:]]"'
